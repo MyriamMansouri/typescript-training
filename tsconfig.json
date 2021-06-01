@@ -3,6 +3,10 @@
         "sourceMap": true
     },
     "files": [
-        "typescript_types.ts"
+        "typescript_types.ts",
+        "typescript_aliases.ts",
+        "typescript_unions.ts",
+        "typescript_loops.ts",
+        "typescript_function_expression.ts",
     ]
 }

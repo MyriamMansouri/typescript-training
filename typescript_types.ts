@@ -5,13 +5,13 @@ const paidAccount : boolean = false;
 const age : number = 33;
 
 // String
-const fullName : string = "Lady Gaga";
+const fullNameExample : string = "Lady Gaga";
 
 // Array
 const ages : number[] = [33, 28, 97, 5];
 
 // Tuple
-const player : [number, string] = [3, fullName];
+const player : [number, string] = [3, fullNameExample];
 
 // Enum
 enum ApprouvalStatus {Approuved, Pending, Rejected};
