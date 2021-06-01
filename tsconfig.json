@@ -1,16 +1,10 @@
 {
     "compilerOptions": {
-        "sourceMap": true
+        "module": "AMD",
+        "sourceMap": true,
+        "target": "ES6"
     },
     "files": [
-        "typescript_types.ts",
-        "typescript_aliases.ts",
-        "typescript_unions.ts",
-        "typescript_loops.ts",
-        "typescript_function_expression.ts",
-        "typescript_immediately_invoked_functions.ts",
-        "typescript_closures.ts",
-        "typescript_class.ts",
-        "typescript_namespace.ts",
+        "promises.ts",
     ]
 }
