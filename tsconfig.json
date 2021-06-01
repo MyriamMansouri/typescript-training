@@ -9,5 +9,6 @@
         "typescript_loops.ts",
         "typescript_function_expression.ts",
         "typescript_immediately_invoked_functions.ts",
+        "typescript_closures.ts",
     ]
 }
