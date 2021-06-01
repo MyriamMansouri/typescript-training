@@ -11,5 +11,6 @@
         "typescript_immediately_invoked_functions.ts",
         "typescript_closures.ts",
         "typescript_class.ts",
+        "typescript_namespace.ts",
     ]
 }

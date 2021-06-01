@@ -11,6 +11,7 @@ class Post implements IPost {
         this.body = post.body;
     } 
     printPost() {
-        return `${this.title} ${this.body}`
+        console.log(this.title);
+        console.log(this.body);
     }
 }
