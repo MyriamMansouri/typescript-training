@@ -8,5 +8,6 @@
         "typescript_unions.ts",
         "typescript_loops.ts",
         "typescript_function_expression.ts",
+        "typescript_immediately_invoked_functions.ts",
     ]
 }
