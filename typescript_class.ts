@@ -1,14 +1,38 @@
-class Invoice {
+class Report {
     companyProfile : string;
 
-    constructor(public name, public city, public state) {
-        this.companyProfile = name + ' ' + city + ' ' + state;
+    constructor(public name) {
+        this.companyProfile = name;
     }
 }
 
-let googleInvoice = new Invoice('Google', 'Mountaine View', 'State');
-let YAHOOInvoice = new Invoice('YAHOO', 'SF', 'State');
+class Invoice extends Report {
+    constructor(public name: string, public total: number) {
+        super(name)
+    }
 
-console.log(googleInvoice);
-console.log(YAHOOInvoice);
+    printInvoice() {
+        return this.name + ', ' + this.total;
+    }
+}
+
+class BillOfLading extends Report {
+    constructor(public name: string, public city: string, public state: string) {
+        super(name)
+    }
+
+    printBol() {
+        return this.name + ', ' + this.city;
+    }
+  
+}
+
+
+let googleInvoice = new Invoice('Google', 1000000);
+let YAHOOBillOfLading = new BillOfLading('YAHOO', 'SF', 'State');
+
+console.log(googleInvoice.printInvoice());
+console.log(YAHOOBillOfLading.printBol());
+
+
 
